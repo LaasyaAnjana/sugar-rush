@@ -57,6 +57,11 @@ namespace myTiles {
 . f f f f f f f f f f f f f . . 
 `
 }
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (kids.vy == 0) {
+        kids.vy += -200
+    }
+})
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile2, function (sprite, location) {
     current_level += 1
     Hershey()
