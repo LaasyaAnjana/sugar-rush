@@ -1,7 +1,8 @@
 {
     "name": "Sugar Rush",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "description": "",
     "files": [
